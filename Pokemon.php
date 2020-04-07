@@ -23,7 +23,32 @@ $this->weakness = $weakness
 }
 
 
+function SetName($newName){
+  $this->name = $newName;
+}
 
+function GetName(){
+  return $this->name;
+}
+
+function GetHealth($newHealth){
+  $this->health = $newHealth;
+}
+
+function GetHealth(){
+  return $this->health;
+}
+
+function GetAttackDamage(){
+  $attack->$thisattacks[$attackNumber];
+  $damage = $attack->GetDamage();
+  return $damage
+
+
+  $targetHealth = $targetPokemon->GetHealth();
+  $targetPokemon->SetHealth($targetHealth - $damage);
+
+}
 }
 
 
